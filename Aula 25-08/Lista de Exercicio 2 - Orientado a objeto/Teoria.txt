@@ -1,0 +1,31 @@
+Sobre a Linguagem orientada ao objeto(POO):
+Está tem como objetivo utilizar exemplos proximos da realidade 
+através de classe que distribui seus parametros para outras variaveis.
+
+#imperativo
+
+Caracteristica = atributo
+
+class Pessoa():
+    def __init__(self,nome,sexo,cpf,ativo)
+        self.nome = nome
+        self.sexo = sexo
+        self.cpf = cpf
+if __name__="__main"
+    pessoa1= Pessoa("João", "M","423424234")
+
+
+    3. Classe Pessoa: Crie uma classe que modele uma pessoa:
+a. Atributos: nome, idade, peso e altura
+b. Métodos: Envelhercer, engordar, emagrecer, crescer. 
+Obs: Por padrão, a cada ano que nossa pessoa envelhece, 
+sendo a idade dela menor que 21 anos, ela deve crescer 0,5 cm.
+
+4. Classe Conta Corrente: Crie uma classe para implementar uma conta corrente. 
+A classe deve possuir os seguintes atributos: número da conta, nome do correntista 
+e saldo. Os métodos são os seguintes: alterarNome, depósito e saque; 
+No construtor, saldo é opcional, com valor default zero e os demais 
+atributos são obrigatórios.
+
+
+    
